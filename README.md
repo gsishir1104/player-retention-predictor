@@ -1,67 +1,74 @@
 # player-retention-predictor
 # Player Retention Predictor
 
-An interactive machine learning web application that predicts whether a player is likely to continue playing a game based on gameplay behavior and engagement metrics.
+## Live Demo
+
+Coming Soon
+
+## Project Overview
+
+Player Retention Predictor is a machine learning project that analyzes gameplay data and predicts whether players are likely to continue using a game.
+
+The project demonstrates:
+
+* Data Analysis
+* Machine Learning Concepts
+* Predictive Analytics
+* Feature Engineering
+* Data Visualization
 
 ## Features
 
-* Machine learning-based player retention prediction
-* Interactive web dashboard built with Streamlit
-* Gameplay analytics and behavioral modeling
-* Real-time prediction system
-* User-friendly interface for testing player scenarios
+* Player Behavior Analysis
+* Retention Prediction
+* Performance Metrics
+* Data Insights Dashboard
 
 ## Technologies Used
 
 * Python
 * Pandas
 * NumPy
-* Scikit-learn
-* Streamlit
-* Matplotlib
+* Scikit-Learn
+* HTML
+* CSS
+* JavaScript
 
-## Project Overview
-
-This project analyzes player activity metrics such as:
-
-* Session Length
-* Levels Completed
-* Death Count
-* In-Game Purchases
-
-Using these features, a machine learning model predicts whether a player is likely to remain engaged with the game or churn.
-
-## Installation
+## Run Locally
 
 ```bash
-pip install -r requirements.txt
+python3 -m http.server 8000
 ```
 
-## Run the Application
+## Open in Browser
+
+1. Open Codespaces
+2. Open Terminal
+3. Run:
 
 ```bash
-streamlit run app.py
+python3 -m http.server 8000
 ```
 
-## Skills Demonstrated
+4. Open PORTS
+5. Open Port 8000 in Browser
 
-* Machine Learning
-* Data Analytics
-* Feature Engineering
-* Classification Models
-* Python Development
-* Interactive Dashboard Design
+## Repository Commands
+
+```bash
+git add .
+git commit -m "update"
+git push origin main
+```
 
 ## Future Improvements
 
-* Real game telemetry integration
-* Advanced churn prediction models
-* Cloud deployment
-* A/B testing analytics
-* Live player engagement dashboards
+* Interactive Dashboard
+* Live Prediction Interface
+* Real Dataset Integration
+* Deployment on Vercel
 
 ## Author
 
 Sishir Gottumukkala
-
 LinkedIn: linkedin.com/in/sishir-gottumukkala-9a7a43235
